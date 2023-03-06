@@ -1,0 +1,21 @@
+body{
+  background: black;
+  display: flex;
+  justify-content: center;
+
+  article{
+    background: white;
+    width: 300px;
+  }
+  .item{
+    width: 100px;
+    &.swiper-slide-active{
+     font-weight: bold;
+      background-color: yellow;
+    }
+  }
+
+  div{
+    color: blueviolet;
+  }
+}
